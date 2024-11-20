@@ -1,0 +1,31 @@
+package org.example.arge;
+
+public class CarSkeleton {
+    private String name;
+    private String description;
+
+    public CarSkeleton(String name, String description) {
+        this.name = name;
+        this.description = description;
+    }
+
+    public CarSkeleton() {
+    }
+    public void startEngine(){
+
+    }
+    public void drive(){
+        runEngine();
+    }
+    protected void runEngine(){
+
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+}
